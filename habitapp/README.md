@@ -22,3 +22,22 @@ App.js: The main entry point of the app.
 app.json: Contains configuration settings for the app.
 
 package.json: Contains metadata about the app, like its dependencies.
+
+
+## data structure basics
+#### Data Structure:
+1. Habits:
+- id: A unique identifier for each habit.
+- name: The name of the habit.
+- description: A brief description of the habit (optional).
+- frequency: How often the habit should be done (e.g., daily, weekly).
+- streak: The number of consecutive days the habit has been completed.
+- created_at: The date and time when the habit was created.
+- last_completed_at: The last date and time when the habit was completed.
+2. Tasks:
+- id: A unique identifier for each task.
+- name: The name of the task.
+- description: A brief description of the task (optional).
+- due_date: The date by which the task should be completed.
+- completed: A boolean indicating whether the task has been completed.
+- created_at: The date and time when the task was created.
